@@ -1,0 +1,42 @@
+.header{
+  height: 64px;
+  line-height: 64px;
+}
+
+:global {
+  .name{
+    margin-left: 10px;
+    padding-right: 10px;
+  }
+  .ant-layout-content{
+    margin-left: 200px;
+}
+  .right {
+    float: right;
+    height: 100%;
+    .action {
+      cursor: pointer;
+      padding: 0 12px;
+      display: inline-block;
+      transition: all 0.3s;
+      height: 100%;
+      >i {
+        font-size: 16px;
+        vertical-align: middle;
+        color: #000;
+      } // &:hover,
+      // &:global(.ant-popover-open) {
+      //   background: @primary-1;
+      // }
+
+    }
+    .account {
+      .avatar {
+        margin: 20px 8px 20px 0;
+        color: #000;
+        background: rgba(255, 255, 255, 0.85);
+        vertical-align: middle;
+      }
+    }
+  }
+}

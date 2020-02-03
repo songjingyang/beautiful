@@ -1,0 +1,37 @@
+.logo {
+  height: 64px;
+  position: relative;
+  line-height: 64px; //   padding-left: (@menu-collapsed-width - 32px) / 2;
+  transition: all 0.3s;
+  background: #002140;
+  overflow: hidden;
+  text-align: center;
+  h1 {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    margin: 0 0 0 12px;
+    font-family: 'Myriad Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+}
+
+.nav-link {
+  display: inline-block !important;
+  color: rgba(255, 255, 255, 0.65);
+  text-decoration: none;
+  width:100%;//解决点击导航栏非title处不生效的bug
+  &:hover {
+    color: rgba(255, 255, 255);
+  }
+}
+
+:global {
+  .logo-img {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 36px; // height: 32px;
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "name": "ts-demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@antv/data-set": "^0.10.2",
+    "@babel/core": "7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
+    "@babel/plugin-transform-react-jsx-source": "^7.2.0",
+    "@svgr/webpack": "2.4.1",
+    "@types/classnames": "^2.2.7",
+    "@types/jest": "23.3.13",
+    "@types/mathjs": "^5.0.1",
+    "@types/node": "10.12.18",
+    "@types/qs": "^6.5.1",
+    "@types/react": "16.7.20",
+    "@types/react-css-modules": "^4.6.2",
+    "@types/react-document-title": "^2.0.3",
+    "@types/react-dom": "16.0.11",
+    "@types/react-pdf": "^4.0.3",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/react-sticky": "^6.0.2",
+    "antd": "^3.25.2",
+    "axios": "^0.18.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "9.0.0",
+    "babel-jest": "23.6.0",
+    "babel-loader": "8.0.4",
+    "babel-plugin-named-asset-import": "^0.3.0",
+    "babel-plugin-react-css-modules": "3.4.2",
+    "babel-preset-react-app": "^7.0.0",
+    "bfj": "6.1.1",
+    "bizcharts": "^3.5.4",
+    "braft-editor": "^2.3.8",
+    "case-sensitive-paths-webpack-plugin": "2.1.2",
+    "chalk": "2.4.1",
+    "classnames": "^2.2.6",
+    "commitizen": "^3.0.5",
+    "conventional-changelog-cli": "^2.0.11",
+    "cross-env": "^5.2.0",
+    "crypto-js": "^3.1.9-1",
+    "css-loader": "1.0.0",
+    "dotenv": "6.0.0",
+    "dotenv-expand": "4.2.0",
+    "enquire-js": "^0.2.1",
+    "eslint": "5.6.0",
+    "eslint-config-react-app": "^3.0.6",
+    "eslint-loader": "2.1.1",
+    "eslint-plugin-flowtype": "2.50.1",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-react": "7.11.1",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "file-loader": "2.0.0",
+    "fork-ts-checker-webpack-plugin-alt": "0.4.14",
+    "fs-extra": "7.0.0",
+    "html-webpack-plugin": "4.0.0-alpha.2",
+    "http-proxy-middleware": "^0.19.1",
+    "husky": "^3.1.0",
+    "identity-obj-proxy": "3.0.0",
+    "immer": "^1.12.1",
+    "immutability-helper": "^3.0.1",
+    "jest": "23.6.0",
+    "jest-pnp-resolver": "1.0.1",
+    "jest-resolve": "23.6.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "lint-staged": "^9.5.0",
+    "mathjs": "^5.9.0",
+    "mini-css-extract-plugin": "0.4.3",
+    "mobx": "^5.9.0",
+    "mobx-react": "^5.4.3",
+    "mobx-react-devtools": "^6.0.3",
+    "msr": "^1.3.4",
+    "npm-run-all": "^4.1.5",
+    "optimize-css-assets-webpack-plugin": "5.0.1",
+    "path-to-regexp": "^3.0.0",
+    "pnp-webpack-plugin": "1.1.0",
+    "postcss-flexbugs-fixes": "4.1.0",
+    "postcss-less": "^3.1.2",
+    "postcss-loader": "3.0.0",
+    "postcss-preset-env": "6.3.1",
+    "postcss-px2rem-exclude": "^0.0.6",
+    "postcss-safe-parser": "4.0.1",
+    "prettier": "^1.19.1",
+    "prop-types": "^15.6.2",
+    "rc-drawer": "^1.7.7",
+    "react": "^0.0.0-b53ea6ca0",
+    "react-app-polyfill": "^0.2.0",
+    "react-container-query": "^0.11.0",
+    "react-dev-utils": "^7.0.1",
+    "react-dnd": "^10.0.2",
+    "react-dnd-html5-backend": "^10.0.2",
+    "react-document-title": "^2.0.3",
+    "react-dom": "^0.0.0-b53ea6ca0",
+    "react-hot-loader": "^4.12.17",
+    "react-pdf-js": "^5.1.0",
+    "react-router-dom": "^4.3.1",
+    "react-select": "^2.4.1",
+    "react-snap": "^1.23.0",
+    "react-sticky": "^6.0.3",
+    "resolve": "1.8.1",
+    "sass-loader": "7.1.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "source-map-explorer": "^2.2.0",
+    "string_decoder": "^1.2.0",
+    "style-loader": "0.23.0",
+    "terser-webpack-plugin": "1.1.0",
+    "typescript": "3.2.4",
+    "url-loader": "1.1.1",
+    "urlencode": "^1.1.0",
+    "validate-commit-msg": "^2.14.0",
+    "webpack": "4.19.1",
+    "webpack-dev-server": "3.1.14",
+    "webpack-manifest-plugin": "2.0.4",
+    "workbox-webpack-plugin": "3.6.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "analyze": "source-map-explorer build/static/js/main.*",
+    "start-js": "node scripts/start.js",
+    "start": "npm-run-all -p start-js",
+    "starts": "cross-env HTTPS=true npm-run-all -p start-js",
+    "start:mock": "cross-env HTTPS=true REACT_APP_MOCK=true npm-run-all -p start-js",
+    "build-js": "node scripts/build.js",
+    "build": "npm-run-all build-js",
+    "build:dev": "npm-run-all build-js",
+    "build:test": "npm-run-all build-js",
+    "build:product": "cross-env GENERATE_SOURCEMAP=false npm-run-all build-js deploy",
+    "deploy": "node config/deploy.js",
+    "test": "node scripts/test.js --env=jsdom",
+    "commitmsg": "validate-commit-msg",
+    "commit": "git-cz",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "proxy": "http://miramartravel-gateway:9950",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/**/*.d.ts"
+    ],
+    "resolver": "jest-pnp-resolver",
+    "setupFiles": [
+      "react-app-polyfill/jsdom"
+    ],
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
+      "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,ts,tsx}"
+    ],
+    "testEnvironment": "jsdom",
+    "testURL": "http://localhost",
+    "transform": {
+      "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest",
+      "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
+      "^(?!.*\\.(js|jsx|ts|tsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$",
+      "^.+\\.module\\.(css|sass|scss)$"
+    ],
+    "moduleNameMapper": {
+      "^react-native$": "react-native-web",
+      "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy"
+    },
+    "moduleFileExtensions": [
+      "web.js",
+      "js",
+      "web.ts",
+      "ts",
+      "web.tsx",
+      "tsx",
+      "json",
+      "web.jsx",
+      "jsx",
+      "node"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ],
+    "plugins": [
+      [
+        "react-css-modules",
+        {
+          "filetypes": {
+            ".less": {
+              "syntax": "postcss-less"
+            }
+          },
+          "generateScopedName": "[local]___[hash:base64:5]"
+        }
+      ],
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
+      ],
+      "react-hot-loader/babel",
+      [
+        "@babel/plugin-proposal-class-properties",
+        {
+          "loose": true
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
+    "deploy-kit": "^3.5.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
